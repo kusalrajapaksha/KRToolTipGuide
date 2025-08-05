@@ -18,7 +18,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/TooltipGuide.git", from: "1.0.0")
+    .package(url: "https://github.com/kusalrajapaksha/KRToolTipGuide.git", from: "1.0.0")
 ]
 ```
 

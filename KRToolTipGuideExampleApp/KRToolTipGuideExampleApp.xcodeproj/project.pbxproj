@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		596F50682E42BB7300DECA93 /* KRToolTipGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 596F50672E42BB7300DECA93 /* KRToolTipGuide */; };
+		596F50742E42C88A00DECA93 /* KRToolTipGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 596F50732E42C88A00DECA93 /* KRToolTipGuide */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596F50742E42C88A00DECA93 /* KRToolTipGuide in Frameworks */,
 				596F50682E42BB7300DECA93 /* KRToolTipGuide in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = KRToolTipGuideExampleApp;
 			packageProductDependencies = (
 				596F50672E42BB7300DECA93 /* KRToolTipGuide */,
+				596F50732E42C88A00DECA93 /* KRToolTipGuide */,
 			);
 			productName = KRToolTipGuideExampleApp;
 			productReference = 596F50552E42BB1A00DECA93 /* KRToolTipGuideExampleApp.app */;
@@ -101,7 +104,7 @@
 			mainGroup = 596F504C2E42BB1A00DECA93;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				596F50662E42BB7300DECA93 /* XCLocalSwiftPackageReference "../KRToolTipGuide" */,
+				596F50722E42C88A00DECA93 /* XCRemoteSwiftPackageReference "KRToolTipGuide" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 596F50562E42BB1A00DECA93 /* Products */;
@@ -334,16 +337,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		596F50662E42BB7300DECA93 /* XCLocalSwiftPackageReference "../KRToolTipGuide" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../KRToolTipGuide;
+/* Begin XCRemoteSwiftPackageReference section */
+		596F50722E42C88A00DECA93 /* XCRemoteSwiftPackageReference "KRToolTipGuide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kusalrajapaksha/KRToolTipGuide";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		596F50672E42BB7300DECA93 /* KRToolTipGuide */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = KRToolTipGuide;
+		};
+		596F50732E42C88A00DECA93 /* KRToolTipGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 596F50722E42C88A00DECA93 /* XCRemoteSwiftPackageReference "KRToolTipGuide" */;
 			productName = KRToolTipGuide;
 		};
 /* End XCSwiftPackageProductDependency section */
