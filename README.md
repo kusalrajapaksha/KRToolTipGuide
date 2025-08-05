@@ -10,6 +10,11 @@ A SwiftUI package for creating interactive tooltip guides and onboarding experie
 - 📱 **Responsive**: Automatic positioning that adapts to screen constraints
 - 🪟 **Overlay System**: Uses separate windows for seamless overlay experience
 
+  ![Screen Recording 2025-08-06 at 01 34 44](https://github.com/user-attachments/assets/d2880c0a-161e-423f-8d73-1a484a101199)
+<img width="316" height="192" alt="Screenshot 2025-08-06 at 01 40 25" src="https://github.com/user-attachments/assets/bd370b22-5a4f-4bb8-b625-79505a7ae755" />
+<img width="320" height="182" alt="Screenshot 2025-08-06 at 01 41 10" src="https://github.com/user-attachments/assets/a51f16e4-d914-4770-9f03-5c010e5c2b84" />
+
+
 ## Installation
 
 ### Swift Package Manager
