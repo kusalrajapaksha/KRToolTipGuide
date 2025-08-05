@@ -171,7 +171,7 @@ Text("Header")
 
 ## Requirements
 
-- iOS 14.0+
+- iOS 15.0+
 - SwiftUI
 - Xcode 12.0+
 
