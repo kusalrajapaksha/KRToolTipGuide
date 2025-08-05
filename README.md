@@ -1,4 +1,5 @@
-# TooltipGuide
+# KRTooltipGuide
+[![Support on Patreon](https://img.shields.io/badge/Patreon-Support-orange?logo=patreon)]([https://patreon.com/yourname](https://www.patreon.com/posts/support-135821859?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link))
 
 A SwiftUI package for creating interactive tooltip guides and onboarding experiences in iOS apps.
 
