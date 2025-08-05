@@ -1,0 +1,15 @@
+{
+  "originHash" : "c22fa422d7a81cc855a5d6f409ebfea259991190d3e40e10436d104fbaca95fb",
+  "pins" : [
+    {
+      "identity" : "krtooltipguide",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kusalrajapaksha/KRToolTipGuide",
+      "state" : {
+        "revision" : "066dac58a6e6897bd515b2634a7da3a6c992da13",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
