@@ -297,8 +297,8 @@ struct CustomStyledTooltipExample: View {
     
     private func startColorfulGuide() {
         let colorfulConfig = TooltipOverlayConfiguration(
-            backgroundColor: .purple,
-            textColor: .white,
+            backgroundColor: .yellow,
+            textColor: .black,
             skipButtonText: "Skip Colorful Guide"
         )
         
